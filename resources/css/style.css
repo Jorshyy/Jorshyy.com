@@ -99,16 +99,19 @@ header li {
     border: 1px solid red;
     width: 100%;
     height: 600px;
-    overflow: hidden; 
-    text-align: center;
+    
+    
 }
 
 
 
 #quote ul {
+    padding: 0%;
     border: 1px solid blue;
     height: 550px;
-    padding: 275px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 
@@ -116,14 +119,33 @@ header li {
     border: 1px solid red;
     list-style-type: none;
     width: 32%;
-    height: 300px;
     overflow: hidden;
-    display: inline-block;
-    
 }
 
 #quote ul img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+
+#contact {
+    border: 1px dotted white;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact label {
+    font-size: 1.3rem;
+    border: 1px solid red;
+}
+
+
+#contact input {
+    display: inline;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    width: 40%;
 }
