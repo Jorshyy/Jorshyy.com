@@ -9,6 +9,10 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     margin: 0px;
@@ -26,13 +30,13 @@ header {
 
 
 #logo {
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     margin-left: 1rem;
     min-width: 450px;
 }
 
 header ul {
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     
     width: 50rem;
     min-width: 400px;
@@ -194,31 +198,38 @@ div {
 footer {
     display: flex;
     justify-content: space-between;
+    height: 80px;
+    /*border: 1px solid blue;*/
 }
 
 
 #list {
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 600px;
 }
 
+
 #list ul {
+    /*border: 1px solid yellow;*/
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    
 }
 
-#list li {
-    border: 1px solid blue;
-}
+
 
 footer section {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     display: inline-block;
+    height: 100%;
+    overflow: hidden;
 }
 
-#socials {
-    margin-bottom: 20px;
-}
+
 
 #socials a {
     margin: 20px;
