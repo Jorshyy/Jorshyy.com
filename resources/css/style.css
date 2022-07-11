@@ -55,6 +55,11 @@ header li {
 }
 
 
+header li:hover {
+    color: #f6e178;
+    cursor: pointer;
+}
+
 #intro {
     /*border: 1px solid tomato;*/
     display: inline-flex;
@@ -87,6 +92,11 @@ header li {
     height: 50px;
 }
 
+.btn-1:hover {
+    background-color: #f6e178;
+    color: white;
+    cursor: pointer;
+}
   
 
 
@@ -125,6 +135,10 @@ header li {
     list-style-type: none;
     width: 32%;
     overflow: hidden;
+}
+
+#quote li:hover {
+    margin-bottom: 15px;
 }
 
 #quote ul img {
@@ -220,6 +234,10 @@ footer {
     
 }
 
+#list li:hover {
+    color: #f6e178;
+    cursor: pointer;
+}
 
 
 footer section {
@@ -234,3 +252,10 @@ footer section {
 #socials a {
     margin: 20px;
 }
+
+
+
+
+
+
+
